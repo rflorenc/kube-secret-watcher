@@ -9,7 +9,7 @@ This sample kubernetes controller mainly does two things:
 
 ## Build and run
 
-$ go build -o kube-secret-watcher cmd/main.go
+$ go build -o kube-secret-watcher
 
 $ ./kube-secret-watcher -kubeConfig ~/.kube/config -v 8 -logtostderr
 
