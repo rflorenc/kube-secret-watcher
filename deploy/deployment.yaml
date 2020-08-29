@@ -26,8 +26,8 @@ spec:
         app: secret-watcher
     spec:
       containers:
-      - image: docker.io/rflorenc/kube-secret-watcher:latest
-        imagePullPolicy: Always
+      - image: docker.io/rfplay/kube-secret-watcher:latest
+        imagePullPolicy: IfNotPresent
         name: secret-watcher
         resources:
           limits:
